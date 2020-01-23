@@ -1,10 +1,4 @@
-# Dot files
-.*
-!.editorconfig
-!.gitattributes
-!.gitignore
-!.travis*
-
+.vscode/
 # Python
 *.pyc
 *.pyo
@@ -13,7 +7,7 @@ pyhocr.egg-info
 dist/
 build/
 __pycache__/
-**/__pycache__/
+
 
 # Git files
 *.orig
