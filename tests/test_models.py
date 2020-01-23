@@ -1,4 +1,5 @@
-from models import initializer
+from layers import initializer
+
 
 class TestInitializer:
 
