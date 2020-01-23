@@ -1,6 +1,9 @@
-from models import initializer
+from layers import initializer
+
 
 class TestInitializer:
 
     def test_initializer(self):
-        print(initializer(2, 2)())
+        params = initializer(2, 2)()
+        assert params['W'].shape == (2, 2)
+        assert params['b'].shape == (2, 1)

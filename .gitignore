@@ -1,0 +1,13 @@
+.vscode/
+# Python
+*.pyc
+*.pyo
+*.egg-info
+pyhocr.egg-info
+dist/
+build/
+__pycache__/
+
+
+# Git files
+*.orig
